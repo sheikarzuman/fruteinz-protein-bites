@@ -326,7 +326,8 @@
       resultImg.alt = "Fruteinz " + flavour.name + " Protein Bites pouch";
     }
     if (resultTitle) {
-      resultTitle.textContent = "You're a " + flavour.name + " Bite.";
+      var article = /^[aeiou]/i.test(flavour.name) ? "an" : "a";
+      resultTitle.textContent = "You're " + article + " " + flavour.name + " Bite.";
       resultTitle.style.color = flavour.color;
     }
     if (resultDesc) {
