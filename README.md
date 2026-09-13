@@ -66,6 +66,8 @@ than X" language appears anywhere).
   fully accessible animated hamburger menu on mobile.
 - **Spectacular hero** built from the real product packaging cropped out of
   the supplied poster, with layered organic shapes and subtle parallax.
+- **"Watch the Film" section** — a short brand video with native HTML5
+  controls and a poster frame, sitting right after the hero.
 - **Brand story, product benefits ("What's Inside"), and product showcase**
   sections using the poster's real icons, pack photography, and copy.
 - **Interactive Flavour Journey** — a five-flavour selector where each
@@ -155,6 +157,8 @@ fruteinz-website/
 └── static/
     ├── css/style.css
     ├── js/script.js
+    ├── video/
+    │   └── fruteinz-film.mp4  # "Watch the Film" brand video
     └── images/                # Cropped from the supplied poster
         ├── pack-guava.jpg, pack-jackfruit.jpg, pack-avocado.jpg,
         │   pack-blackberry.jpg, pack-raspberry.jpg
@@ -162,6 +166,7 @@ fruteinz-website/
         ├── icon-protein.png, icon-fruit-flavours.png, icon-honey.png,
         │   icon-soy.png, icon-no-artificial.png
         ├── logo-lockup.png, poster-full.jpg
+        ├── film-poster.jpg       # Poster frame for the brand video
         └── favicon.png
 ```
 

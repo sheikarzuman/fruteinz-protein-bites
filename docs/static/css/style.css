@@ -1,8 +1,8 @@
 /* =========================================================================
    Fruteinz™ Protein Bites — stylesheet
-   Sections: Tokens, Reset, Type, Utilities, Nav, Hero, Story, Benefits,
-   Flavours, Showcase, Why, Quiz, Final CTA, Footer, Animation system,
-   Responsive, Accessibility / reduced motion.
+   Sections: Tokens, Reset, Type, Utilities, Nav, Hero, Watch the Film,
+   Story, Benefits, Flavours, Showcase, Why, Quiz, Final CTA, Footer,
+   Animation system, Responsive, Accessibility / reduced motion.
    ========================================================================= */
 
 /* ---------- Design tokens ---------- */
@@ -505,6 +505,38 @@ p {
   0% { transform: translateY(0); opacity: 1; }
   70% { transform: translateY(14px); opacity: 0; }
   100% { transform: translateY(14px); opacity: 0; }
+}
+
+/* =========================================================================
+   WATCH THE FILM
+   ========================================================================= */
+.watch-film {
+  background: var(--cream);
+  padding: 2rem var(--gutter) 6rem;
+  max-width: var(--container);
+  margin-inline: auto;
+  text-align: center;
+}
+
+.film-lead {
+  max-width: 52ch;
+  margin: 1rem auto 0;
+  font-size: clamp(1.05rem, 1.6vw, 1.2rem);
+}
+
+.film-player {
+  margin: 2.5rem auto 0;
+  max-width: 720px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  background: var(--forest-dark);
+}
+
+.film-player video {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* =========================================================================
